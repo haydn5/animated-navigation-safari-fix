@@ -37,24 +37,6 @@
     margin-top: 0px;
 }
 
-/* when navigation is clicked */
-
-.navbar-toggler .top-bar {
-    transform: rotate(135deg);
-    top: inherit;
-}
-
-.navbar-toggler .middle-bar {
-    opacity: 0;
-    top: inherit;
-    filter: alpha(opacity=0);
-}
-
-.navbar-toggler .bottom-bar {
-
-    top: inherit;
-    transform: rotate(-135deg);
-}
 
 /* State when the navbar is collapsed */
 
@@ -75,6 +57,24 @@
     position: absolute;
     top: 20px;
     transform: rotate(0deg);
+}
+
+/* when navigation is clicked */
+
+.navbar-toggler .top-bar {
+    top: inherit;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    top: inherit;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    top: inherit;
+    transform: rotate(-135deg);
 }
 
 /* Color of 3 lines */
